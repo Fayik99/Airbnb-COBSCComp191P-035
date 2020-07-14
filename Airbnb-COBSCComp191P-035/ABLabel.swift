@@ -1,5 +1,5 @@
 //
-//  ABButton2.swift
+//  ABLabel.swift
 //  Airbnb-COBSCComp191P-035
 //
 //  Created by Fayik Muzammil on 7/14/20.
@@ -8,25 +8,20 @@
 
 import UIKit
 
-class ABButton2: UIButton {
+class ABLabel: UILabel {
  
      override init(frame: CGRect) {
             super.init(frame: frame)
         
-           setupButton()
+           setupLabel()
         }
         
         required init?(coder: NSCoder) {
             super.init(coder: coder)
-            setupButton()
+            setupLabel()
         }
-        private func setupButton() {
+        private func setupLabel() {
             backgroundColor = #colorLiteral(red: 0.03275240026, green: 0.2678425147, blue: 0.310189666, alpha: 1)
-            titleLabel?.font = UIFont(name: Fonts.avenirNextCondensedDemiBold, size: 24)
-            layer.borderColor = UIColor.white.cgColor
-            layer.borderWidth = 2.0
-            layer.cornerRadius = frame.size.height/2
-            setTitleColor(.white, for: .normal)
         }
     }
 

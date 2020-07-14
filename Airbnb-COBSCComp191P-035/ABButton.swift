@@ -24,7 +24,7 @@ class ABButton: UIButton {
             backgroundColor = UIColor.white
                    titleLabel?.font = UIFont(name: Fonts.avenirNextCondensedDemiBold, size: 24)
             layer.cornerRadius = frame.size.height/2
-            setTitleColor(.systemBlue, for: .normal)
+            setTitleColor(#colorLiteral(red: 0.03275240026, green: 0.2678425147, blue: 0.310189666, alpha: 1), for: .normal)
         }
     }
 
