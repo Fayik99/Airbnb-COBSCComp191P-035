@@ -21,7 +21,7 @@ class ABButton2: UIButton {
             setupButton()
         }
         private func setupButton() {
-            backgroundColor = #colorLiteral(red: 0.03275240026, green: 0.2678425147, blue: 0.310189666, alpha: 1)
+            backgroundColor = #colorLiteral(red: 0.06908603932, green: 0.1985503986, blue: 0.2692478951, alpha: 1)
             titleLabel?.font = UIFont(name: Fonts.avenirNextCondensedDemiBold, size: 24)
             layer.borderColor = UIColor.white.cgColor
             layer.borderWidth = 2.0
