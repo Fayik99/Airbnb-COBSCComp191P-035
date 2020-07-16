@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		114784E524C0B70F00C01063 /* CustomLineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114784E424C0B70F00C01063 /* CustomLineTextField.swift */; };
+		114784EB24C0F02A00C01063 /* SecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114784EA24C0F02A00C01063 /* SecurityViewController.swift */; };
 		1149A93F24BF866D00E0564A /* ABNext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1149A93E24BF866D00E0564A /* ABNext.swift */; };
 		114ABE5A24C08B420077746C /* CustomColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114ABE5924C08B420077746C /* CustomColorView.swift */; };
 		1155DE3B24C05A6500A48210 /* ABViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155DE3A24C05A6500A48210 /* ABViewController.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		114784E424C0B70F00C01063 /* CustomLineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLineTextField.swift; sourceTree = "<group>"; };
+		114784EA24C0F02A00C01063 /* SecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityViewController.swift; sourceTree = "<group>"; };
 		1149A93E24BF866D00E0564A /* ABNext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABNext.swift; sourceTree = "<group>"; };
 		114ABE5924C08B420077746C /* CustomColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColorView.swift; sourceTree = "<group>"; };
 		1155DE3A24C05A6500A48210 /* ABViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				11DC79E824BDB55B00AD99E4 /* AppDelegate.swift */,
 				11DC79EC24BDB55B00AD99E4 /* ViewController.swift */,
 				1155DE3A24C05A6500A48210 /* ABViewController.swift */,
+				114784EA24C0F02A00C01063 /* SecurityViewController.swift */,
 				1155DE3D24C063C200A48210 /* Support files */,
 				11DC79F124BDB59700AD99E4 /* Assets.xcassets */,
 				11DC79F624BDB59700AD99E4 /* Info.plist */,
@@ -179,6 +182,7 @@
 				1149A93F24BF866D00E0564A /* ABNext.swift in Sources */,
 				11DC7A0124BDC7BC00AD99E4 /* ABButton2.swift in Sources */,
 				114ABE5A24C08B420077746C /* CustomColorView.swift in Sources */,
+				114784EB24C0F02A00C01063 /* SecurityViewController.swift in Sources */,
 				11DC79FD24BDC06E00AD99E4 /* ABButton.swift in Sources */,
 				11DC79ED24BDB55B00AD99E4 /* ViewController.swift in Sources */,
 				11DC79E924BDB55B00AD99E4 /* AppDelegate.swift in Sources */,
