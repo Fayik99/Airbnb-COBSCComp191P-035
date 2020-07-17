@@ -15,39 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MainScreen logo" translatesAutoresizingMaskIntoConstraints="NO" id="s62-dy-6K6">
-                                <rect key="frame" x="36" y="132" width="87" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Airbnb." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgk-MW-pVb">
-                                <rect key="frame" x="36" y="239" width="295" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Airbnb." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgk-MW-pVb">
+                                <rect key="frame" x="36" y="252" width="267.5" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X0P-Fe-PoY">
-                                <rect key="frame" x="346" y="49" width="48" height="22"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqU-Oj-H0T" customClass="ABButton" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="36" y="352" width="332" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqU-Oj-H0T" customClass="ABButton" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="36" y="345.5" width="342" height="39"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="G   Continue with Google">
                                     <color key="titleColor" red="0.037049451744245877" green="0.22211144293288093" blue="0.30567924222797926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ti7-6D-AX0" customClass="ABButton2" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="36" y="414" width="332" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ti7-6D-AX0" customClass="ABButton2" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="36" y="406.5" width="342" height="39"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="Create Account">
                                     <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
@@ -60,16 +46,27 @@
                                     <segue destination="ujB-fJ-9WI" kind="show" id="xCH-qs-6MA"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edf-su-Bg1">
-                                <rect key="frame" x="36" y="515" width="102" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edf-su-Bg1">
+                                <rect key="frame" x="36" y="508.5" width="102" height="20"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxg-71-JI1" customClass="ABLabel" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="25" y="733" width="365" height="129"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainScreen logo" translatesAutoresizingMaskIntoConstraints="NO" id="s62-dy-6K6">
+                                <rect key="frame" x="44" y="133" width="74" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="74" id="Htn-HH-qPd"/>
+                                    <constraint firstAttribute="height" constant="78" id="jHE-yw-G3Y"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Toe-My-HuQ">
+                                <rect key="frame" x="340" y="109" width="38" height="30"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxg-71-JI1" customClass="ABLabel" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="26" y="768.5" width="362" height="81.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">By signing up, I agree to Airbnb's Terms of service, Non- Discrimination Policy, Payments Terms of service, Privacy Policy, Guest Refund Policy and Host Gurantee Terms.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -79,6 +76,26 @@
                         </subviews>
                         <color key="backgroundColor" red="0.02773344308" green="0.1969854181" blue="0.2797713953" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="Ti7-6D-AX0" firstAttribute="top" secondItem="rqU-Oj-H0T" secondAttribute="bottom" constant="22" id="1ZX-xm-2Qg"/>
+                            <constraint firstItem="s62-dy-6K6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="2lb-BR-8wh"/>
+                            <constraint firstItem="Edf-su-Bg1" firstAttribute="top" secondItem="Ti7-6D-AX0" secondAttribute="bottom" constant="63" id="6lc-85-Keb"/>
+                            <constraint firstItem="Bxg-71-JI1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="6tv-bQ-SLJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tgk-MW-pVb" secondAttribute="trailing" constant="110.33" id="Eec-fP-oJF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bxg-71-JI1" secondAttribute="bottom" constant="12" id="IFS-pw-lZq"/>
+                            <constraint firstItem="Tgk-MW-pVb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="ITZ-4Y-SeX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bxg-71-JI1" secondAttribute="trailing" constant="26" id="LPT-ZE-j2d"/>
+                            <constraint firstItem="rqU-Oj-H0T" firstAttribute="top" secondItem="Tgk-MW-pVb" secondAttribute="bottom" constant="63.5" id="Txe-hQ-MWn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqU-Oj-H0T" secondAttribute="trailing" constant="36" id="ZRR-Od-ban"/>
+                            <constraint firstItem="Edf-su-Bg1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="aEL-Y7-ddJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ti7-6D-AX0" secondAttribute="trailing" constant="36" id="lDd-Th-44T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Toe-My-HuQ" secondAttribute="trailing" constant="36" id="sNn-kz-kbw"/>
+                            <constraint firstItem="s62-dy-6K6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="tgc-3O-J48"/>
+                            <constraint firstItem="rqU-Oj-H0T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="vV2-gD-NNF"/>
+                            <constraint firstItem="Toe-My-HuQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="wLU-I7-OOK"/>
+                            <constraint firstItem="Ti7-6D-AX0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="xee-6A-Zce"/>
+                            <constraint firstItem="Tgk-MW-pVb" firstAttribute="top" secondItem="s62-dy-6K6" secondAttribute="bottom" constant="41" id="zGo-ry-1SM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="startLocation">
@@ -97,11 +114,11 @@
                             <userDefinedRuntimeAttribute type="boolean" keyPath="diagonalMode" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <navigationItem key="navigationItem" id="1m0-5f-k17"/>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="1m0-5f-k17"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="414" y="-25"/>
+            <point key="canvasLocation" x="412" y="-25.862068965517242"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ldF-YH-JwP">
@@ -127,23 +144,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LAST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJm-ro-YXJ">
-                                <rect key="frame" x="22" y="343" width="162" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LAST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJm-ro-YXJ">
+                                <rect key="frame" x="25" y="380.5" width="162" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FIRST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYx-6l-pL8">
-                                <rect key="frame" x="22" y="229" width="162" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYx-6l-pL8">
+                                <rect key="frame" x="25" y="262" width="162" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Muzammil" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K9F-2N-Ngn" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="22" y="402" width="352" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Muzammil" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K9F-2N-Ngn" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="25" y="411.5" width="352" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
@@ -156,16 +170,14 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="bottomLine" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's your name?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMO-0o-nrC">
-                                <rect key="frame" x="22" y="107" width="295" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your name?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMO-0o-nrC">
+                                <rect key="frame" x="25" y="136" width="306.5" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fayik" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gvS-DA-bYc" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="22" y="281" width="352" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fayik" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gvS-DA-bYc" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="25" y="293" width="352" height="20"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -183,18 +195,36 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="topLine" value="NO"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoD-8E-awc" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="321" y="805" width="53" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NkL-au-qcP" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="357.5" y="812" width="19.5" height="22"/>
                                 <color key="tintColor" red="0.0811094485" green="0.1917518198" blue="0.24344235750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="arrow.right" catalog="system"/>
                                 <connections>
-                                    <segue destination="sDh-oY-wN9" kind="show" id="99a-a4-Pel"/>
+                                    <segue destination="sDh-oY-wN9" kind="show" id="mS3-sN-Q5y"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.083065371249166117" green="0.18885830874509385" blue="0.24374595207253891" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="gvS-DA-bYc" firstAttribute="top" secondItem="TYx-6l-pL8" secondAttribute="bottom" constant="8" id="1U9-Fz-aj0"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="bottom" secondItem="NkL-au-qcP" secondAttribute="bottom" constant="28" id="1hi-09-vkx"/>
+                            <constraint firstItem="VJm-ro-YXJ" firstAttribute="top" secondItem="gvS-DA-bYc" secondAttribute="bottom" constant="67.5" id="2UW-fL-Ynh"/>
+                            <constraint firstItem="TYx-6l-pL8" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="3O9-QR-X4B"/>
+                            <constraint firstItem="TYx-6l-pL8" firstAttribute="top" secondItem="dMO-0o-nrC" secondAttribute="bottom" constant="90" id="4Ob-s7-L0c"/>
+                            <constraint firstItem="K9F-2N-Ngn" firstAttribute="top" secondItem="VJm-ro-YXJ" secondAttribute="bottom" constant="8" id="4rs-91-jqo"/>
+                            <constraint firstItem="dMO-0o-nrC" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="52N-Qd-T1C"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="gvS-DA-bYc" secondAttribute="trailing" constant="37" id="77D-Fb-k5F"/>
+                            <constraint firstItem="gvS-DA-bYc" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="7u6-kN-8HB"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="dMO-0o-nrC" secondAttribute="trailing" constant="82.670000000000002" id="8Tc-jJ-TXt"/>
+                            <constraint firstItem="VJm-ro-YXJ" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="AJO-V3-EN0"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="K9F-2N-Ngn" secondAttribute="trailing" constant="37" id="QSX-VC-oUc"/>
+                            <constraint firstItem="K9F-2N-Ngn" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="R3I-ZN-Itf"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="TYx-6l-pL8" secondAttribute="trailing" constant="227" id="aNw-zd-dT0"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="NkL-au-qcP" secondAttribute="trailing" constant="37" id="bBF-tK-Jtq"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="VJm-ro-YXJ" secondAttribute="trailing" constant="227" id="c7e-R6-UoI"/>
+                            <constraint firstItem="dMO-0o-nrC" firstAttribute="top" secondItem="sl9-gQ-qkt" secondAttribute="top" constant="48" id="eCy-uZ-UXZ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sl9-gQ-qkt"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="startColor">
@@ -227,23 +257,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="And, your email?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFb-Ts-NQe">
-                                <rect key="frame" x="20" y="104" width="295" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And, your email?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFb-Ts-NQe">
+                                <rect key="frame" x="20" y="136" width="231" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="EMAIL ADDRESS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ni-FV-V3U">
-                                <rect key="frame" x="20" y="227" width="162" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL ADDRESS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ni-FV-V3U">
+                                <rect key="frame" x="20" y="239.5" width="144.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="fayik99@gmail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ziR-gh-zQj" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="287" width="354" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="fayik99@gmail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ziR-gh-zQj" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="20" y="271.5" width="328" height="20"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
@@ -257,18 +284,28 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NkL-au-qcP" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="321" y="805" width="53" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEy-Ja-GOJ" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="356.5" y="809" width="19.5" height="22"/>
                                 <color key="tintColor" red="0.0811094485" green="0.1917518198" blue="0.24344235750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="arrow.right" catalog="system"/>
                                 <connections>
-                                    <segue destination="jOV-sf-dwm" kind="show" id="gn6-r4-582"/>
+                                    <segue destination="jOV-sf-dwm" kind="show" id="tWJ-2C-AfW"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.026074443990000001" green="0.18714028190000001" blue="0.24890705960000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="ziR-gh-zQj" firstAttribute="top" secondItem="7ni-FV-V3U" secondAttribute="bottom" constant="9" id="84u-57-UKp"/>
+                            <constraint firstItem="p22-G4-abB" firstAttribute="bottom" secondItem="aEy-Ja-GOJ" secondAttribute="bottom" constant="31" id="9cX-bI-pE3"/>
+                            <constraint firstItem="ziR-gh-zQj" firstAttribute="leading" secondItem="p22-G4-abB" secondAttribute="leading" constant="20" id="DI4-9x-7Tw"/>
+                            <constraint firstItem="JFb-Ts-NQe" firstAttribute="leading" secondItem="p22-G4-abB" secondAttribute="leading" constant="20" id="Hcl-Mc-my8"/>
+                            <constraint firstItem="p22-G4-abB" firstAttribute="trailing" secondItem="aEy-Ja-GOJ" secondAttribute="trailing" constant="38" id="KWR-XL-8sw"/>
+                            <constraint firstItem="7ni-FV-V3U" firstAttribute="top" secondItem="JFb-Ts-NQe" secondAttribute="bottom" constant="67.5" id="Nf8-xq-FAS"/>
+                            <constraint firstItem="p22-G4-abB" firstAttribute="trailing" secondItem="ziR-gh-zQj" secondAttribute="trailing" constant="66" id="TSq-R4-mNV"/>
+                            <constraint firstItem="JFb-Ts-NQe" firstAttribute="top" secondItem="p22-G4-abB" secondAttribute="top" constant="48" id="XAD-eN-3XP"/>
+                            <constraint firstItem="7ni-FV-V3U" firstAttribute="leading" secondItem="p22-G4-abB" secondAttribute="leading" constant="20" id="vU1-p0-ecp"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="p22-G4-abB"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="startColor">
@@ -301,31 +338,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create a password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbg-8C-5gm">
-                                <rect key="frame" x="20" y="110" width="295" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbg-8C-5gm">
+                                <rect key="frame" x="20" y="143" width="260.5" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your password must include at least one symbol and be 8 or more characters long" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3c-dx-LGm" customClass="ABLabel" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="180" width="313" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your password must include at least one symbol and be 8 or more characters long" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3c-dx-LGm" customClass="ABLabel" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="20" y="205" width="313" height="61"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="highlightedColor" red="0.22649350609999999" green="0.68499465039999996" blue="0.59516139599999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKV-0W-faJ">
-                                <rect key="frame" x="20" y="285" width="162" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jrd-g7-ocQ" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="344" width="359" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jrd-g7-ocQ" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="20" y="348" width="359" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HEY-ND-DGT"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                 <userDefinedRuntimeAttributes>
@@ -338,18 +368,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSV-C7-UUT" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="326" y="805" width="53" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0811094485" green="0.1917518198" blue="0.24344235750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" image="arrow.right" catalog="system"/>
-                                <connections>
-                                    <segue destination="gwV-8b-rcu" kind="show" id="V6v-Th-rib"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7C6-GJ-OHp">
-                                <rect key="frame" x="321" y="293" width="48" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7C6-GJ-OHp">
+                                <rect key="frame" x="321" y="302" width="48" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Show">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -358,9 +378,39 @@
                                     <action selector="btnSecurity:" destination="jOV-sf-dwm" eventType="touchUpInside" id="Gzd-DN-hrH"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSV-C7-UUT" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="360.5" y="815" width="19.5" height="22"/>
+                                <color key="tintColor" red="0.0811094485" green="0.1917518198" blue="0.24344235750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="arrow.right" catalog="system"/>
+                                <connections>
+                                    <segue destination="gwV-8b-rcu" kind="show" id="V6v-Th-rib"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKV-0W-faJ">
+                                <rect key="frame" x="20" y="309" width="103" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="jrd-g7-ocQ" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="6Sh-jV-SOX"/>
+                            <constraint firstItem="WKV-0W-faJ" firstAttribute="top" secondItem="w3c-dx-LGm" secondAttribute="bottom" constant="43" id="9Tn-Ve-jUl"/>
+                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="iSV-C7-UUT" secondAttribute="trailing" constant="34" id="C7q-Nj-iXX"/>
+                            <constraint firstItem="Wbg-8C-5gm" firstAttribute="top" secondItem="Ynw-vj-hqe" secondAttribute="top" constant="55" id="FrW-D6-7Y1"/>
+                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="jrd-g7-ocQ" secondAttribute="trailing" constant="35" id="Iet-r7-noL"/>
+                            <constraint firstItem="w3c-dx-LGm" firstAttribute="top" secondItem="Wbg-8C-5gm" secondAttribute="bottom" constant="26" id="Inc-6A-EPD"/>
+                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="bottom" secondItem="iSV-C7-UUT" secondAttribute="bottom" constant="25" id="RaI-j4-uKV"/>
+                            <constraint firstItem="jrd-g7-ocQ" firstAttribute="top" secondItem="7C6-GJ-OHp" secondAttribute="bottom" constant="11" id="SH3-JA-CJj"/>
+                            <constraint firstItem="WKV-0W-faJ" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="ZM1-xX-wfG"/>
+                            <constraint firstItem="jrd-g7-ocQ" firstAttribute="top" secondItem="WKV-0W-faJ" secondAttribute="bottom" constant="16" id="c99-p5-Lu4"/>
+                            <constraint firstItem="w3c-dx-LGm" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="hUy-Wi-A4I"/>
+                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="w3c-dx-LGm" secondAttribute="trailing" constant="81" id="woC-tb-ue3"/>
+                            <constraint firstItem="Wbg-8C-5gm" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="zAj-bO-mpk"/>
+                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="7C6-GJ-OHp" secondAttribute="trailing" constant="45" id="zTd-zg-7xn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ynw-vj-hqe"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="color" keyPath="startColor">
@@ -397,31 +447,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="When is your birthdaty?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dh4-wV-sMy">
-                                <rect key="frame" x="20" y="107" width="343" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When is your birthday?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dh4-wV-sMy">
+                                <rect key="frame" x="20" y="142" width="321.5" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BIRTHDAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfK-In-4sW">
-                                <rect key="frame" x="20" y="289" width="162" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIRTHDAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfK-In-4sW">
+                                <rect key="frame" x="20" y="305" width="89.5" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You must be at least 18 years old to use Airbnb. Others won't see your birthday." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fe-Q0-AuC" customClass="ABLabel" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="190" width="313" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You must be at least 18 years old to use Airbnb. Others won't see your birthday." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fe-Q0-AuC" customClass="ABLabel" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="20" y="217" width="313" height="41"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="DateTxt" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="________/_____/______________" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="qn6-eP-g7g" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="344" width="359" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="DateTxt" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="________/_____/______________" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="qn6-eP-g7g" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="20" y="346" width="359" height="20"/>
                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -439,15 +485,28 @@
                                     <action selector="dateField:" destination="G3P-Ht-vBI" eventType="editingDidEnd" id="AsZ-sB-m0K"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFJ-2W-qGA" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="326" y="805" width="53" height="57"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFJ-2W-qGA" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="366.5" y="822" width="19.5" height="22"/>
                                 <color key="tintColor" red="0.0811094485" green="0.1917518198" blue="0.24344235750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="arrow.right" catalog="system"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.083065371250000006" green="0.1888583087" blue="0.2437459521" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
+                        <constraints>
+                            <constraint firstItem="Dh4-wV-sMy" firstAttribute="top" secondItem="Ppg-Da-QTg" secondAttribute="top" constant="54" id="1v5-qB-b0d"/>
+                            <constraint firstItem="qn6-eP-g7g" firstAttribute="top" secondItem="GfK-In-4sW" secondAttribute="bottom" constant="18" id="3uw-ww-ao8"/>
+                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="trailing" secondItem="3Fe-Q0-AuC" secondAttribute="trailing" constant="81" id="7Ge-g0-txH"/>
+                            <constraint firstItem="qn6-eP-g7g" firstAttribute="leading" secondItem="Ppg-Da-QTg" secondAttribute="leading" constant="20" id="L7R-LO-owZ"/>
+                            <constraint firstItem="Dh4-wV-sMy" firstAttribute="leading" secondItem="Ppg-Da-QTg" secondAttribute="leading" constant="20" id="Tuh-vl-YYb"/>
+                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="trailing" secondItem="qn6-eP-g7g" secondAttribute="trailing" constant="35" id="Vod-iC-9ii"/>
+                            <constraint firstItem="3Fe-Q0-AuC" firstAttribute="top" secondItem="Dh4-wV-sMy" secondAttribute="bottom" constant="39" id="ba5-eI-YLH"/>
+                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="bottom" secondItem="MFJ-2W-qGA" secondAttribute="bottom" constant="18" id="bhw-Mw-nVh"/>
+                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="trailing" secondItem="MFJ-2W-qGA" secondAttribute="trailing" constant="28" id="c3p-LC-sJD"/>
+                            <constraint firstItem="GfK-In-4sW" firstAttribute="top" secondItem="3Fe-Q0-AuC" secondAttribute="bottom" constant="47" id="jLK-nY-1uL"/>
+                            <constraint firstItem="GfK-In-4sW" firstAttribute="leading" secondItem="Ppg-Da-QTg" secondAttribute="leading" constant="20" id="rgG-yH-3Cm"/>
+                            <constraint firstItem="3Fe-Q0-AuC" firstAttribute="leading" secondItem="Ppg-Da-QTg" secondAttribute="leading" constant="20" id="uNJ-ti-8nn"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ppg-Da-QTg"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="startLocation">
@@ -474,7 +533,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lKH-9G-kTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="G3P-Ht-vBI" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3461" y="-32"/>
+            <point key="canvasLocation" x="3460.8695652173915" y="-32.142857142857139"/>
         </scene>
     </scenes>
     <resources>
