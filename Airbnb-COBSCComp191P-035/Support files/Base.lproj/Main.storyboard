@@ -47,7 +47,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edf-su-Bg1">
-                                <rect key="frame" x="36" y="508.5" width="102" height="20"/>
+                                <rect key="frame" x="36" y="476" width="102" height="20"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
@@ -66,7 +66,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bxg-71-JI1" customClass="ABLabel" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="26" y="768.5" width="362" height="81.5"/>
+                                <rect key="frame" x="28" y="780.5" width="358" height="81.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">By signing up, I agree to Airbnb's Terms of service, Non- Discrimination Policy, Payments Terms of service, Privacy Policy, Guest Refund Policy and Host Gurantee Terms.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -77,23 +77,23 @@
                         <color key="backgroundColor" red="0.02773344308" green="0.1969854181" blue="0.2797713953" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
                         <constraints>
+                            <constraint firstItem="Bxg-71-JI1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="0mR-Dd-VWY"/>
                             <constraint firstItem="Ti7-6D-AX0" firstAttribute="top" secondItem="rqU-Oj-H0T" secondAttribute="bottom" constant="22" id="1ZX-xm-2Qg"/>
                             <constraint firstItem="s62-dy-6K6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="2lb-BR-8wh"/>
-                            <constraint firstItem="Edf-su-Bg1" firstAttribute="top" secondItem="Ti7-6D-AX0" secondAttribute="bottom" constant="63" id="6lc-85-Keb"/>
-                            <constraint firstItem="Bxg-71-JI1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="6tv-bQ-SLJ"/>
+                            <constraint firstItem="Bxg-71-JI1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="57h-xI-KsX"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tgk-MW-pVb" secondAttribute="trailing" constant="110.33" id="Eec-fP-oJF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bxg-71-JI1" secondAttribute="bottom" constant="12" id="IFS-pw-lZq"/>
                             <constraint firstItem="Tgk-MW-pVb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="ITZ-4Y-SeX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bxg-71-JI1" secondAttribute="trailing" constant="26" id="LPT-ZE-j2d"/>
                             <constraint firstItem="rqU-Oj-H0T" firstAttribute="top" secondItem="Tgk-MW-pVb" secondAttribute="bottom" constant="63.5" id="Txe-hQ-MWn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bxg-71-JI1" secondAttribute="trailing" constant="28" id="UT9-R1-Mya"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqU-Oj-H0T" secondAttribute="trailing" constant="36" id="ZRR-Od-ban"/>
-                            <constraint firstItem="Edf-su-Bg1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="aEL-Y7-ddJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ti7-6D-AX0" secondAttribute="trailing" constant="36" id="lDd-Th-44T"/>
+                            <constraint firstItem="Edf-su-Bg1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="ptK-Ac-iG6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Toe-My-HuQ" secondAttribute="trailing" constant="36" id="sNn-kz-kbw"/>
                             <constraint firstItem="s62-dy-6K6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="tgc-3O-J48"/>
                             <constraint firstItem="rqU-Oj-H0T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="vV2-gD-NNF"/>
                             <constraint firstItem="Toe-My-HuQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="21" id="wLU-I7-OOK"/>
                             <constraint firstItem="Ti7-6D-AX0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="xee-6A-Zce"/>
+                            <constraint firstItem="Edf-su-Bg1" firstAttribute="top" secondItem="Ti7-6D-AX0" secondAttribute="bottom" constant="30.5" id="z4D-R4-9Rs"/>
                             <constraint firstItem="Tgk-MW-pVb" firstAttribute="top" secondItem="s62-dy-6K6" secondAttribute="bottom" constant="41" id="zGo-ry-1SM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -118,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="412" y="-25.862068965517242"/>
+            <point key="canvasLocation" x="411.59420289855075" y="-26.116071428571427"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ldF-YH-JwP">
