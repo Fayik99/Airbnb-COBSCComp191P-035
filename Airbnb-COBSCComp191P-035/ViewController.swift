@@ -12,10 +12,19 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(tapButton))
+        self.navigationItem.leftBarButtonItem = addButton
+        
+        let login = UIBarButtonItem(title: "Login", style: .done, target: self, action: #selector(tapButton))
        
+        self.navigationItem.rightBarButtonItem = login
+        
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0, green: 0.6194828818, blue: 0.6715180838, alpha: 1)
     }
-
+    @objc func tapButton() {
+        print("You tap!!")
+    }
 }
 
     
