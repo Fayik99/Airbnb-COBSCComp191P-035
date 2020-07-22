@@ -58,6 +58,7 @@
 			children = (
 				1149A93E24BF866D00E0564A /* ABNext.swift */,
 				11DC7A0024BDC7BC00AD99E4 /* ABButton2.swift */,
+				11DC79EC24BDB55B00AD99E4 /* ViewController.swift */,
 				11DC79FC24BDC06E00AD99E4 /* ABButton.swift */,
 				114ABE5924C08B420077746C /* CustomColorView.swift */,
 				114784E424C0B70F00C01063 /* CustomLineTextField.swift */,
@@ -95,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				11DC79E824BDB55B00AD99E4 /* AppDelegate.swift */,
-				11DC79EC24BDB55B00AD99E4 /* ViewController.swift */,
 				1155DE3A24C05A6500A48210 /* ABViewController.swift */,
 				114784EA24C0F02A00C01063 /* SecurityViewController.swift */,
 				1155DE3D24C063C200A48210 /* Support files */,
@@ -335,6 +335,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2347J4F97;
 				INFOPLIST_FILE = "Airbnb-COBSCComp191P-035/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,6 +354,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z2347J4F97;
 				INFOPLIST_FILE = "Airbnb-COBSCComp191P-035/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
