@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zKm-n9-uUb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -16,44 +16,31 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Airbnb." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgk-MW-pVb">
-                                <rect key="frame" x="36" y="252" width="267.5" height="30"/>
+                                <rect key="frame" x="36" y="208" width="267.5" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqU-Oj-H0T" customClass="ABButton" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="36" y="345.5" width="342" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqU-Oj-H0T" customClass="ABButton" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="36" y="302" width="327" height="44"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <state key="normal" title="G   Continue with Google">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="2sE-KS-fbg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="   Continue with Google" image="Google Logo">
                                     <color key="titleColor" red="0.037049451744245877" green="0.22211144293288093" blue="0.30567924222797926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 </state>
                             </button>
-                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ti7-6D-AX0" customClass="ABButton2" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="36" y="406.5" width="342" height="39"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <state key="normal" title="Create Account">
-                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="ujB-fJ-9WI" kind="show" id="xCH-qs-6MA"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="More options" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Edf-su-Bg1">
-                                <rect key="frame" x="36" y="476" width="102" height="20"/>
+                                <rect key="frame" x="36" y="446" width="102" height="20"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainScreen logo" translatesAutoresizingMaskIntoConstraints="NO" id="s62-dy-6K6">
-                                <rect key="frame" x="44" y="133" width="74" height="78"/>
+                                <rect key="frame" x="44" y="89" width="74" height="78"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="74" id="Htn-HH-qPd"/>
                                     <constraint firstAttribute="height" constant="78" id="jHE-yw-G3Y"/>
@@ -64,28 +51,59 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">By signing up, I agree to Airbnb's Terms of service, Non- Discrimination Policy, Payments Terms of service, Privacy Policy, Guest Refund Policy and Host Gurantee Terms.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xnS-v6-Kvy">
+                                <rect key="frame" x="342" y="47" width="50" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Ar8-GR-3vq"/>
+                                    <constraint firstAttribute="width" constant="50" id="Stf-Z8-PkN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ti7-6D-AX0" customClass="ABButton2" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="36" y="366" width="327" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="DYP-gG-3Za"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Create Account">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="ujB-fJ-9WI" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="16b-VZ-Om5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.02773344308" green="0.1969854181" blue="0.2797713953" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
                         <constraints>
+                            <constraint firstItem="rqU-Oj-H0T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="0XE-JF-X2m"/>
                             <constraint firstItem="Bxg-71-JI1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="0mR-Dd-VWY"/>
-                            <constraint firstItem="Ti7-6D-AX0" firstAttribute="top" secondItem="rqU-Oj-H0T" secondAttribute="bottom" constant="22" id="1ZX-xm-2Qg"/>
                             <constraint firstItem="s62-dy-6K6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="2lb-BR-8wh"/>
                             <constraint firstItem="Bxg-71-JI1" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="57h-xI-KsX"/>
+                            <constraint firstItem="Edf-su-Bg1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="8qh-Dd-UxX"/>
+                            <constraint firstItem="Ti7-6D-AX0" firstAttribute="top" secondItem="rqU-Oj-H0T" secondAttribute="bottom" constant="20" id="8wB-Iy-4ux"/>
+                            <constraint firstItem="Ti7-6D-AX0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="Cl1-CJ-gfC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tgk-MW-pVb" secondAttribute="trailing" constant="110.33" id="Eec-fP-oJF"/>
                             <constraint firstItem="Tgk-MW-pVb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="ITZ-4Y-SeX"/>
-                            <constraint firstItem="rqU-Oj-H0T" firstAttribute="top" secondItem="Tgk-MW-pVb" secondAttribute="bottom" constant="63.5" id="Txe-hQ-MWn"/>
+                            <constraint firstItem="Edf-su-Bg1" firstAttribute="top" secondItem="Ti7-6D-AX0" secondAttribute="bottom" constant="36" id="Mp7-ho-ULC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ti7-6D-AX0" secondAttribute="trailing" constant="51" id="Ndz-oW-yoW"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bxg-71-JI1" secondAttribute="trailing" constant="28" id="UT9-R1-Mya"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqU-Oj-H0T" secondAttribute="trailing" constant="36" id="ZRR-Od-ban"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ti7-6D-AX0" secondAttribute="trailing" constant="36" id="lDd-Th-44T"/>
-                            <constraint firstItem="Edf-su-Bg1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="ptK-Ac-iG6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xnS-v6-Kvy" secondAttribute="trailing" constant="22" id="Ur1-wt-7f0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rqU-Oj-H0T" secondAttribute="trailing" constant="51" id="Zox-m8-qG9"/>
+                            <constraint firstItem="xnS-v6-Kvy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="3" id="ayW-Cc-vq7"/>
+                            <constraint firstItem="rqU-Oj-H0T" firstAttribute="top" secondItem="Tgk-MW-pVb" secondAttribute="bottom" constant="64" id="bx7-9V-Hkl"/>
                             <constraint firstItem="s62-dy-6K6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="tgc-3O-J48"/>
-                            <constraint firstItem="rqU-Oj-H0T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="vV2-gD-NNF"/>
-                            <constraint firstItem="Ti7-6D-AX0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="xee-6A-Zce"/>
-                            <constraint firstItem="Edf-su-Bg1" firstAttribute="top" secondItem="Ti7-6D-AX0" secondAttribute="bottom" constant="30.5" id="z4D-R4-9Rs"/>
                             <constraint firstItem="Tgk-MW-pVb" firstAttribute="top" secondItem="s62-dy-6K6" secondAttribute="bottom" constant="41" id="zGo-ry-1SM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -106,28 +124,13 @@
                             <userDefinedRuntimeAttribute type="boolean" keyPath="diagonalMode" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="1m0-5f-k17"/>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="1m0-5f-k17">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="MYs-dO-3PX"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="411.59420289855075" y="-26.116071428571427"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="ldF-YH-JwP">
-            <objects>
-                <navigationController id="zKm-n9-uUb" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gz1-M0-8fY">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PQY-qj-hQ5"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1di-yL-plq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-365" y="-25"/>
+            <point key="canvasLocation" x="-697.10144927536237" y="-32.142857142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Rr2-xn-vPy">
@@ -138,19 +141,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LAST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VJm-ro-YXJ">
-                                <rect key="frame" x="25" y="381.5" width="162" height="23"/>
+                                <rect key="frame" x="25" y="337.5" width="162" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRST NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYx-6l-pL8">
-                                <rect key="frame" x="25" y="262" width="162" height="23"/>
+                                <rect key="frame" x="25" y="218" width="162" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Muzammil" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K9F-2N-Ngn" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="25" y="412.5" width="352" height="21"/>
+                                <rect key="frame" x="25" y="368.5" width="325" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
@@ -164,13 +167,13 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your name?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMO-0o-nrC">
-                                <rect key="frame" x="25" y="136" width="306.5" height="36"/>
+                                <rect key="frame" x="25" y="92" width="306.5" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Fayik" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gvS-DA-bYc" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="25" y="293" width="352" height="21"/>
+                                <rect key="frame" x="25" y="249" width="325" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -189,11 +192,26 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NkL-au-qcP" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="357.5" y="812" width="19.5" height="22"/>
+                                <rect key="frame" x="319" y="779" width="72" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="ZV1-zh-Bdt"/>
+                                    <constraint firstAttribute="height" constant="65" id="ffU-ef-m2d"/>
+                                </constraints>
                                 <color key="tintColor" red="0.0811094485" green="0.1917518198" blue="0.24344235750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="arrow.right" catalog="system"/>
                                 <connections>
-                                    <segue destination="sDh-oY-wN9" kind="show" id="mS3-sN-Q5y"/>
+                                    <segue destination="sDh-oY-wN9" kind="presentation" modalPresentationStyle="fullScreen" id="g8n-6k-tN6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZT-Cm-B7H">
+                                <rect key="frame" x="20" y="46.5" width="19" height="21.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26.5" id="FoW-w3-3qL"/>
+                                    <constraint firstAttribute="width" constant="19" id="kuz-C4-QdS"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="arrow.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="4hD-yy-LKb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -201,22 +219,24 @@
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
                         <constraints>
                             <constraint firstItem="gvS-DA-bYc" firstAttribute="top" secondItem="TYx-6l-pL8" secondAttribute="bottom" constant="8" id="1U9-Fz-aj0"/>
-                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="bottom" secondItem="NkL-au-qcP" secondAttribute="bottom" constant="28" id="1hi-09-vkx"/>
                             <constraint firstItem="VJm-ro-YXJ" firstAttribute="top" secondItem="gvS-DA-bYc" secondAttribute="bottom" constant="67.5" id="2UW-fL-Ynh"/>
                             <constraint firstItem="TYx-6l-pL8" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="3O9-QR-X4B"/>
                             <constraint firstItem="TYx-6l-pL8" firstAttribute="top" secondItem="dMO-0o-nrC" secondAttribute="bottom" constant="90" id="4Ob-s7-L0c"/>
                             <constraint firstItem="K9F-2N-Ngn" firstAttribute="top" secondItem="VJm-ro-YXJ" secondAttribute="bottom" constant="8" id="4rs-91-jqo"/>
                             <constraint firstItem="dMO-0o-nrC" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="52N-Qd-T1C"/>
-                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="gvS-DA-bYc" secondAttribute="trailing" constant="37" id="77D-Fb-k5F"/>
                             <constraint firstItem="gvS-DA-bYc" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="7u6-kN-8HB"/>
                             <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="dMO-0o-nrC" secondAttribute="trailing" constant="82.670000000000002" id="8Tc-jJ-TXt"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="K9F-2N-Ngn" secondAttribute="trailing" constant="64" id="8iO-Sa-52i"/>
                             <constraint firstItem="VJm-ro-YXJ" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="AJO-V3-EN0"/>
-                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="K9F-2N-Ngn" secondAttribute="trailing" constant="37" id="QSX-VC-oUc"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="NkL-au-qcP" secondAttribute="trailing" constant="23" id="Lh7-pR-bRG"/>
+                            <constraint firstItem="oZT-Cm-B7H" firstAttribute="top" secondItem="sl9-gQ-qkt" secondAttribute="top" id="Q38-OQ-7pK"/>
                             <constraint firstItem="K9F-2N-Ngn" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="25" id="R3I-ZN-Itf"/>
+                            <constraint firstItem="oZT-Cm-B7H" firstAttribute="leading" secondItem="sl9-gQ-qkt" secondAttribute="leading" constant="20" id="S6F-M8-h0J"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="bottom" secondItem="NkL-au-qcP" secondAttribute="bottom" constant="18" id="ZBv-Qw-kKS"/>
                             <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="TYx-6l-pL8" secondAttribute="trailing" constant="227" id="aNw-zd-dT0"/>
-                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="NkL-au-qcP" secondAttribute="trailing" constant="37" id="bBF-tK-Jtq"/>
                             <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="VJm-ro-YXJ" secondAttribute="trailing" constant="227" id="c7e-R6-UoI"/>
                             <constraint firstItem="dMO-0o-nrC" firstAttribute="top" secondItem="sl9-gQ-qkt" secondAttribute="top" constant="48" id="eCy-uZ-UXZ"/>
+                            <constraint firstItem="sl9-gQ-qkt" firstAttribute="trailing" secondItem="gvS-DA-bYc" secondAttribute="trailing" constant="64" id="oT2-tp-hlq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sl9-gQ-qkt"/>
                         <userDefinedRuntimeAttributes>
@@ -240,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8E-Ev-V7C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1189.8550724637682" y="-25.446428571428569"/>
+            <point key="canvasLocation" x="57.971014492753625" y="-32.142857142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="6C0-fs-Eo3">
@@ -251,19 +271,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And, your email?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFb-Ts-NQe">
-                                <rect key="frame" x="20" y="136" width="231" height="36"/>
+                                <rect key="frame" x="20" y="92" width="231" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL ADDRESS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ni-FV-V3U">
-                                <rect key="frame" x="20" y="239.5" width="144.5" height="23"/>
+                                <rect key="frame" x="20" y="195.5" width="144.5" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="fayik99@gmail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ziR-gh-zQj" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="271.5" width="328" height="21"/>
+                                <rect key="frame" x="20" y="227.5" width="328" height="21"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" textContentType="email"/>
@@ -277,26 +297,43 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEy-Ja-GOJ" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="356.5" y="809" width="19.5" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DSZ-ba-O8u" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="319" y="779" width="72" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="KPa-KF-tJb"/>
+                                    <constraint firstAttribute="height" constant="65" id="cT5-iv-umx"/>
+                                </constraints>
                                 <color key="tintColor" red="0.0811094485" green="0.1917518198" blue="0.24344235750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="arrow.right" catalog="system"/>
                                 <connections>
-                                    <segue destination="jOV-sf-dwm" kind="show" id="tWJ-2C-AfW"/>
+                                    <segue destination="jOV-sf-dwm" kind="presentation" modalPresentationStyle="fullScreen" id="tRu-MZ-rDQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tA1-vO-nzh">
+                                <rect key="frame" x="20" y="46.5" width="19" height="21.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="19" id="bHW-SQ-e59"/>
+                                    <constraint firstAttribute="height" constant="26.5" id="vD7-Lb-iLn"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="arrow.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="ujB-fJ-9WI" kind="presentation" modalPresentationStyle="fullScreen" id="X4G-y2-9sN"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.026074443990000001" green="0.18714028190000001" blue="0.24890705960000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
                         <constraints>
+                            <constraint firstItem="p22-G4-abB" firstAttribute="bottom" secondItem="DSZ-ba-O8u" secondAttribute="bottom" constant="18" id="2Pd-Sy-2UY"/>
                             <constraint firstItem="ziR-gh-zQj" firstAttribute="top" secondItem="7ni-FV-V3U" secondAttribute="bottom" constant="9" id="84u-57-UKp"/>
-                            <constraint firstItem="p22-G4-abB" firstAttribute="bottom" secondItem="aEy-Ja-GOJ" secondAttribute="bottom" constant="31" id="9cX-bI-pE3"/>
+                            <constraint firstItem="tA1-vO-nzh" firstAttribute="top" secondItem="p22-G4-abB" secondAttribute="top" id="Cjh-An-RFH"/>
                             <constraint firstItem="ziR-gh-zQj" firstAttribute="leading" secondItem="p22-G4-abB" secondAttribute="leading" constant="20" id="DI4-9x-7Tw"/>
                             <constraint firstItem="JFb-Ts-NQe" firstAttribute="leading" secondItem="p22-G4-abB" secondAttribute="leading" constant="20" id="Hcl-Mc-my8"/>
-                            <constraint firstItem="p22-G4-abB" firstAttribute="trailing" secondItem="aEy-Ja-GOJ" secondAttribute="trailing" constant="38" id="KWR-XL-8sw"/>
                             <constraint firstItem="7ni-FV-V3U" firstAttribute="top" secondItem="JFb-Ts-NQe" secondAttribute="bottom" constant="67.5" id="Nf8-xq-FAS"/>
                             <constraint firstItem="p22-G4-abB" firstAttribute="trailing" secondItem="ziR-gh-zQj" secondAttribute="trailing" constant="66" id="TSq-R4-mNV"/>
+                            <constraint firstItem="tA1-vO-nzh" firstAttribute="leading" secondItem="p22-G4-abB" secondAttribute="leading" constant="20" id="V9Y-7q-e2u"/>
                             <constraint firstItem="JFb-Ts-NQe" firstAttribute="top" secondItem="p22-G4-abB" secondAttribute="top" constant="48" id="XAD-eN-3XP"/>
+                            <constraint firstItem="p22-G4-abB" firstAttribute="trailing" secondItem="DSZ-ba-O8u" secondAttribute="trailing" constant="23" id="lAo-U2-7JL"/>
                             <constraint firstItem="7ni-FV-V3U" firstAttribute="leading" secondItem="p22-G4-abB" secondAttribute="leading" constant="20" id="vU1-p0-ecp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="p22-G4-abB"/>
@@ -321,7 +358,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z3y-C6-YCk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1950.7246376811595" y="-25.446428571428569"/>
+            <point key="canvasLocation" x="837.68115942028987" y="-32.142857142857139"/>
         </scene>
         <!--Security View Controller-->
         <scene sceneID="bad-X3-Kfu">
@@ -332,20 +369,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wbg-8C-5gm">
-                                <rect key="frame" x="20" y="143" width="260.5" height="36"/>
+                                <rect key="frame" x="20" y="99" width="260.5" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your password must include at least one symbol and be 8 or more characters long" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w3c-dx-LGm" customClass="ABLabel" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="205" width="313" height="61"/>
+                                <rect key="frame" x="20" y="161" width="313" height="61"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" red="0.22649350609999999" green="0.68499465039999996" blue="0.59516139599999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jrd-g7-ocQ" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="348" width="359" height="30"/>
+                                <rect key="frame" x="20" y="304" width="334" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="HEY-ND-DGT"/>
                                 </constraints>
@@ -362,7 +399,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7C6-GJ-OHp">
-                                <rect key="frame" x="321" y="302" width="48" height="35"/>
+                                <rect key="frame" x="321" y="258" width="48" height="35"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="Show">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -371,35 +408,53 @@
                                     <action selector="btnSecurity:" destination="jOV-sf-dwm" eventType="touchUpInside" id="Gzd-DN-hrH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSV-C7-UUT" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="360.5" y="815" width="19.5" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKV-0W-faJ">
+                                <rect key="frame" x="20" y="265" width="103" height="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlI-1L-6gO" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="319" y="779" width="72" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="865-2i-ARo"/>
+                                    <constraint firstAttribute="width" constant="72" id="Bsv-Yf-qpK"/>
+                                </constraints>
                                 <color key="tintColor" red="0.0811094485" green="0.1917518198" blue="0.24344235750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="arrow.right" catalog="system"/>
                                 <connections>
-                                    <segue destination="gwV-8b-rcu" kind="show" id="V6v-Th-rib"/>
+                                    <segue destination="gwV-8b-rcu" kind="presentation" modalPresentationStyle="fullScreen" id="quI-aX-JCu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WKV-0W-faJ">
-                                <rect key="frame" x="20" y="309" width="103" height="23"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nm6-UJ-d1D">
+                                <rect key="frame" x="20" y="46.5" width="19" height="21.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="19" id="O0D-Fc-kSa"/>
+                                    <constraint firstAttribute="height" constant="26.5" id="V0M-fs-B9u"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="arrow.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="sDh-oY-wN9" kind="presentation" modalPresentationStyle="fullScreen" id="39S-pk-E0J"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <rect key="contentStretch" x="0.0" y="0.10000000000000001" width="1" height="1"/>
                         <constraints>
                             <constraint firstItem="jrd-g7-ocQ" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="6Sh-jV-SOX"/>
+                            <constraint firstItem="jrd-g7-ocQ" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="8nb-5U-70X"/>
                             <constraint firstItem="WKV-0W-faJ" firstAttribute="top" secondItem="w3c-dx-LGm" secondAttribute="bottom" constant="43" id="9Tn-Ve-jUl"/>
-                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="iSV-C7-UUT" secondAttribute="trailing" constant="34" id="C7q-Nj-iXX"/>
                             <constraint firstItem="Wbg-8C-5gm" firstAttribute="top" secondItem="Ynw-vj-hqe" secondAttribute="top" constant="55" id="FrW-D6-7Y1"/>
-                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="jrd-g7-ocQ" secondAttribute="trailing" constant="35" id="Iet-r7-noL"/>
                             <constraint firstItem="w3c-dx-LGm" firstAttribute="top" secondItem="Wbg-8C-5gm" secondAttribute="bottom" constant="26" id="Inc-6A-EPD"/>
-                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="bottom" secondItem="iSV-C7-UUT" secondAttribute="bottom" constant="25" id="RaI-j4-uKV"/>
-                            <constraint firstItem="jrd-g7-ocQ" firstAttribute="top" secondItem="7C6-GJ-OHp" secondAttribute="bottom" constant="11" id="SH3-JA-CJj"/>
+                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="bottom" secondItem="zlI-1L-6gO" secondAttribute="bottom" constant="18" id="Xi4-AP-k3I"/>
                             <constraint firstItem="WKV-0W-faJ" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="ZM1-xX-wfG"/>
+                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="jrd-g7-ocQ" secondAttribute="trailing" constant="60" id="a3u-Q5-qvX"/>
                             <constraint firstItem="jrd-g7-ocQ" firstAttribute="top" secondItem="WKV-0W-faJ" secondAttribute="bottom" constant="16" id="c99-p5-Lu4"/>
                             <constraint firstItem="w3c-dx-LGm" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="hUy-Wi-A4I"/>
+                            <constraint firstItem="nm6-UJ-d1D" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="o8J-gQ-PcR"/>
+                            <constraint firstItem="nm6-UJ-d1D" firstAttribute="top" secondItem="Ynw-vj-hqe" secondAttribute="top" id="pdP-Ea-3tP"/>
+                            <constraint firstItem="jrd-g7-ocQ" firstAttribute="top" secondItem="7C6-GJ-OHp" secondAttribute="bottom" constant="11" id="rGy-hH-WA8"/>
+                            <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="zlI-1L-6gO" secondAttribute="trailing" constant="23" id="vLJ-aK-JYU"/>
                             <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="w3c-dx-LGm" secondAttribute="trailing" constant="81" id="woC-tb-ue3"/>
                             <constraint firstItem="Wbg-8C-5gm" firstAttribute="leading" secondItem="Ynw-vj-hqe" secondAttribute="leading" constant="20" id="zAj-bO-mpk"/>
                             <constraint firstItem="Ynw-vj-hqe" firstAttribute="trailing" secondItem="7C6-GJ-OHp" secondAttribute="trailing" constant="45" id="zTd-zg-7xn"/>
@@ -430,7 +485,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7aV-KR-Tcc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2679.7101449275365" y="-32.142857142857139"/>
+            <point key="canvasLocation" x="1621.7391304347827" y="-32.142857142857139"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jDv-O8-ktt">
@@ -441,26 +496,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="When is your birthday?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dh4-wV-sMy">
-                                <rect key="frame" x="20" y="142" width="321.5" height="36"/>
+                                <rect key="frame" x="20" y="98" width="321.5" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BIRTHDAY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfK-In-4sW">
-                                <rect key="frame" x="20" y="305" width="89.5" height="23"/>
+                                <rect key="frame" x="20" y="261" width="89.5" height="23"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You must be at least 18 years old to use Airbnb. Others won't see your birthday." lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Fe-Q0-AuC" customClass="ABLabel" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="217" width="313" height="41"/>
+                                <rect key="frame" x="20" y="173" width="313" height="41"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="DateTxt" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="________/_____/______________" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="qn6-eP-g7g" customClass="CustomLineTextField" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="20" y="346" width="359" height="21"/>
+                                <rect key="frame" x="20" y="302" width="322" height="21"/>
                                 <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -478,10 +533,25 @@
                                     <action selector="dateField:" destination="G3P-Ht-vBI" eventType="editingDidEnd" id="AsZ-sB-m0K"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MFJ-2W-qGA" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
-                                <rect key="frame" x="366.5" y="822" width="19.5" height="22"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h82-HA-8NW" customClass="ABNext" customModule="Airbnb_COBSCComp191P_035" customModuleProvider="target">
+                                <rect key="frame" x="319" y="779" width="72" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="Rbr-g5-Hqy"/>
+                                    <constraint firstAttribute="width" constant="72" id="aHP-td-ixc"/>
+                                </constraints>
                                 <color key="tintColor" red="0.0811094485" green="0.1917518198" blue="0.24344235750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" image="arrow.right" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ESD-kf-5JJ">
+                                <rect key="frame" x="20" y="46.5" width="19" height="21.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26.5" id="ffY-SM-6cz"/>
+                                    <constraint firstAttribute="width" constant="19" id="h0O-2A-geW"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="arrow.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="jOV-sf-dwm" kind="presentation" modalPresentationStyle="fullScreen" id="5dz-lE-b4G"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.083065371250000006" green="0.1888583087" blue="0.2437459521" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -490,14 +560,16 @@
                             <constraint firstItem="Dh4-wV-sMy" firstAttribute="top" secondItem="Ppg-Da-QTg" secondAttribute="top" constant="54" id="1v5-qB-b0d"/>
                             <constraint firstItem="qn6-eP-g7g" firstAttribute="top" secondItem="GfK-In-4sW" secondAttribute="bottom" constant="18" id="3uw-ww-ao8"/>
                             <constraint firstItem="Ppg-Da-QTg" firstAttribute="trailing" secondItem="3Fe-Q0-AuC" secondAttribute="trailing" constant="81" id="7Ge-g0-txH"/>
+                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="bottom" secondItem="h82-HA-8NW" secondAttribute="bottom" constant="18" id="JHZ-59-Izl"/>
                             <constraint firstItem="qn6-eP-g7g" firstAttribute="leading" secondItem="Ppg-Da-QTg" secondAttribute="leading" constant="20" id="L7R-LO-owZ"/>
                             <constraint firstItem="Dh4-wV-sMy" firstAttribute="leading" secondItem="Ppg-Da-QTg" secondAttribute="leading" constant="20" id="Tuh-vl-YYb"/>
-                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="trailing" secondItem="qn6-eP-g7g" secondAttribute="trailing" constant="35" id="Vod-iC-9ii"/>
+                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="trailing" secondItem="qn6-eP-g7g" secondAttribute="trailing" constant="72" id="UaC-5x-6nx"/>
                             <constraint firstItem="3Fe-Q0-AuC" firstAttribute="top" secondItem="Dh4-wV-sMy" secondAttribute="bottom" constant="39" id="ba5-eI-YLH"/>
-                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="bottom" secondItem="MFJ-2W-qGA" secondAttribute="bottom" constant="18" id="bhw-Mw-nVh"/>
-                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="trailing" secondItem="MFJ-2W-qGA" secondAttribute="trailing" constant="28" id="c3p-LC-sJD"/>
+                            <constraint firstItem="ESD-kf-5JJ" firstAttribute="top" secondItem="Ppg-Da-QTg" secondAttribute="top" id="diy-CJ-VKp"/>
                             <constraint firstItem="GfK-In-4sW" firstAttribute="top" secondItem="3Fe-Q0-AuC" secondAttribute="bottom" constant="47" id="jLK-nY-1uL"/>
+                            <constraint firstItem="Ppg-Da-QTg" firstAttribute="trailing" secondItem="h82-HA-8NW" secondAttribute="trailing" constant="23" id="rVv-ab-eh2"/>
                             <constraint firstItem="GfK-In-4sW" firstAttribute="leading" secondItem="Ppg-Da-QTg" secondAttribute="leading" constant="20" id="rgG-yH-3Cm"/>
+                            <constraint firstItem="ESD-kf-5JJ" firstAttribute="leading" secondItem="Ppg-Da-QTg" secondAttribute="leading" constant="20" id="tjP-UT-kfj"/>
                             <constraint firstItem="3Fe-Q0-AuC" firstAttribute="leading" secondItem="Ppg-Da-QTg" secondAttribute="leading" constant="20" id="uNJ-ti-8nn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ppg-Da-QTg"/>
@@ -526,12 +598,19 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lKH-9G-kTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="G3P-Ht-vBI" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3460.8695652173915" y="-32.142857142857139"/>
+            <point key="canvasLocation" x="2382.608695652174" y="-32.142857142857139"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="5dz-lE-b4G"/>
+        <segue reference="g8n-6k-tN6"/>
+        <segue reference="16b-VZ-Om5"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
+        <image name="Google Logo" width="30" height="30"/>
         <image name="MainScreen logo" width="256" height="256"/>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="arrow.right" catalog="system" width="128" height="98"/>
     </resources>
 </document>

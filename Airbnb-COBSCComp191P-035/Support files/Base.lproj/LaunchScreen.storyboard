@@ -23,8 +23,12 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Airbnb" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsd-a1-INm">
-                                <rect key="frame" x="45" y="430" width="316" height="36"/>
+                                <rect key="frame" x="49" y="430" width="316" height="36"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="FEC-15-YKv"/>
+                                    <constraint firstAttribute="width" constant="316" id="WF2-gy-X1E"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -35,22 +39,22 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Powered by Fayik99">
                                         <attributes>
+                                            <color key="NSColor" red="0.032043147208121847" green="0.032043147208121847" blue="0.032043147208121847" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" metaFont="system" size="17"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
-                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.046097131430629879" green="0.47464311754531874" blue="0.50912119289340096" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="jsd-a1-INm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="0ea-Jd-BLM"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bj1-EP-pmv" secondAttribute="trailing" constant="141" id="BLV-Ga-WYf"/>
+                            <constraint firstItem="jsd-a1-INm" firstAttribute="top" secondItem="bj1-EP-pmv" secondAttribute="bottom" constant="31" id="Erq-Dn-GFa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zEp-l0-UzQ" secondAttribute="trailing" constant="135" id="Gvh-Hy-du0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jsd-a1-INm" secondAttribute="trailing" constant="49" id="Kda-I7-puA"/>
                             <constraint firstItem="bj1-EP-pmv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="231" id="NaA-4m-vou"/>
-                            <constraint firstItem="jsd-a1-INm" firstAttribute="top" secondItem="bj1-EP-pmv" secondAttribute="bottom" constant="31" id="UFP-CL-yXw"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jsd-a1-INm" secondAttribute="trailing" constant="53" id="ahY-rs-9pR"/>
+                            <constraint firstItem="jsd-a1-INm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="49" id="PP1-HP-eCE"/>
                             <constraint firstItem="zEp-l0-UzQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="137" id="aya-pL-QxD"/>
                             <constraint firstItem="bj1-EP-pmv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="gvg-yn-hym"/>
                             <constraint firstItem="zEp-l0-UzQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ifX-l2-Jet"/>
